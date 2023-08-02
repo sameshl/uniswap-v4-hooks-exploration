@@ -29,8 +29,13 @@ Access to reliable & high-frequency price oracle could in principle quote prices
 #### Idea 3: try to "capture" expected LVR
 The basic idea is to incorporate mechanisms for the AMM (not arbitrageurs) to "capture" the LVR and then redistribute the profits to LPs
 
+### Focus: LP profitability
+
+#### Idea 1: LP yield stratergies to offset LVR
+Increasing yield for LP by building hooks that store extra liquidity from lending pools into lending protocol. Note that, this does have the guarantee that it will be executed/included in the contract at the time of the swap as these happen with hooks and not externally.
+
 ## Progress
-We have started with idea 1, and working on designing pools with dynamic fees which are based on market prices.
+We have started with designing pools with dynamic fees which are based on market prices.
 
 
 
